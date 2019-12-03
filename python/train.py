@@ -141,8 +141,8 @@ for sp in speak:
 
     # HYPERPARAMETERS
     learning_rate = 1e-3
-    epochs = 5
-    batch_size = 512
+    epochs = 5000
+    batch_size = 1024
 
     # Seed for reproducibility
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -161,7 +161,6 @@ for sp in speak:
     print("{} dataset on training...\n".format(sp))
 
     model = CNN().to(device)
-    summary(model, input_size=(1,384))
     criterion = torch.nn.CrossEntropyLoss().to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 ########################################################################################################################
@@ -231,7 +230,7 @@ for sp in speak:
 
     plt.figure(figsize=(10,7))
     plt.title("Confusion Matrix of " + sp + "Test Set")
-    conf1 = sns.heatmap(dd, annot=True, fmt='.0%', cmap='YlGnBu', cbar=False, vmin=0, vmax=1)
+    conf1 = sns.heatmap(dd, annot=True, fmt=".0%", cmap='YlGnBu', cbar=False, vmin=0, vmax=1)
     plt.xlabel("Predicted class")
     plt.ylabel("True class")
     cbar = conf1.figure.colorbar(conf1.collections[0])
@@ -243,8 +242,8 @@ for sp in speak:
     print("###############"+sp+" ended###############\n\n")
 
 # RESULT OF 5 FOLD
-print("\nAverage of 5-fold: ", avg_acc/5)
 summary(model, input_size=(1,384))
+print("\nAverage of 5-fold: ", avg_acc/5)
 
 
 
