@@ -39,5 +39,7 @@ Thumbs.db
 
 # Result images #
 #################
-*.png
+#*.png
 Feature/__pycache__/load_iemocap.cpython-36.pyc
+GAN
+.gitignore
