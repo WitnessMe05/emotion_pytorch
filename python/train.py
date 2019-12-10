@@ -14,7 +14,7 @@ import pandas as pd
 import subprocess
 import os
 from sklearn import preprocessing
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, classification_report
 import matplotlib.pyplot as plt
 import seaborn as sns
 from collections import Counter
@@ -30,7 +30,8 @@ def createFolder(directory):
         print ('Error: Creating directory. ' +  directory)
 
 
-classes = 4
+classes = 2
+emo = ['ang', 'neu']
 speak = ['Ses01', 'Ses02', 'Ses03', 'Ses04', 'Ses05'] # cross validation
 avg_acc = 0
 
@@ -41,7 +42,7 @@ for sp in speak:
 
         def __init__(self, is_train_set=False, transforms=None):
             le = preprocessing.LabelEncoder()
-            filename = "./test/IS09_emo.csv"
+            #filename = "./test/IS09_emo.csv"
             with gzip.open("/home/gnlenfn/remote/pytorch_emotion/Feature/IS09_emotion_feature.pkl") as f:
                 feat = pickle.load(f)
             if is_train_set == False:
@@ -60,7 +61,7 @@ for sp in speak:
             exc = data[data.EMOTION == 'exc']
             hap_m = pd.concat([hap, exc]).replace("exc", "hap").reset_index(drop=True) # Merge happy and excited
 
-            emo_sep = pd.concat([neu, hap_m, sad, ang]).reset_index(drop=True)
+            emo_sep = pd.concat([neu, ang]).reset_index(drop=True)
             self.len = emo_sep.shape[0]
             tmpdf = emo_sep.iloc[:,1:-3]
             #print(tmpdf.head())
@@ -157,7 +158,7 @@ for sp in speak:
     train_dataset = FeatureData(is_train_set=True, transforms=trans)
     train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
     test_dataset = FeatureData(is_train_set=False, transforms=trans)
-    test_loader = DataLoader(dataset=test_dataset, batch_size=1, shuffle=True, num_workers=0, drop_last=False)
+    test_loader = DataLoader(dataset=test_dataset, shuffle=True, num_workers=0, drop_last=False)
     print("{} dataset on training...\n".format(sp))
 
     model = CNN().to(device)
@@ -169,7 +170,7 @@ for sp in speak:
     test_batch = len(test_loader)
 
     model.train()
-    model_path = "./Model/4emo/"+sp+"/"
+    model_path = "./Model/2emo/"+sp+"/"
     print(sp + "Learning started. It takes some time...\n")
     for epoch in range(epochs):
         avg_cost = 0
@@ -189,8 +190,8 @@ for sp in speak:
 
         if (epoch + 1) % 100 == 0:
             print('[Epoch: {:>4}] cost = {:>.10}, lr = {}'.format(epoch + 1, avg_cost, optimizer.param_groups[0]['lr']))
-
-    # SAVE MODEL
+        
+    # # SAVE MODEL
     createFolder(model_path)
     torch.save(model.state_dict(), model_path + str(epochs) + '.pth')
     print("Model saved...")
@@ -224,7 +225,7 @@ for sp in speak:
 
     # CONFUSION MATRIX
     print(heat)
-    dd = pd.DataFrame(heat, index=['ang', 'hap','neu', 'sad'], columns=['ang', 'hap','neu', 'sad'])
+    dd = pd.DataFrame(heat, index=emo, columns=emo)
     k = dd.sum(axis=1)
     dd = dd.div(k, axis=0)
 
@@ -236,7 +237,7 @@ for sp in speak:
     cbar = conf1.figure.colorbar(conf1.collections[0])
     cbar.set_ticks([0,1])
     cbar.set_ticklabels(["0%", "100%"])
-    plt.savefig(model_path + "ConfMat" + sp + ".png")
+    plt.savefig(model_path + "ConfMat" + sp + "_" + str(epochs) + ".png")
     plt.show()
 
     print("###############"+sp+" ended###############\n\n")
@@ -248,4 +249,3 @@ print("\nAverage of 5-fold: ", avg_acc/5)
 
 
 
- 

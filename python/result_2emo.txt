@@ -1,0 +1,203 @@
+Data Loading...
+Ses01 dataset on training...
+
+Ses01Learning started. It takes some time...
+
+[Epoch:  100] cost = 0.6893869042, lr = 0.001
+[Epoch:  200] cost = 0.5312660336, lr = 0.001
+[Epoch:  300] cost = 0.4804203808, lr = 0.001
+[Epoch:  400] cost = 0.5015539527, lr = 0.001
+[Epoch:  500] cost = 0.4771821201, lr = 0.001
+[Epoch:  600] cost = 0.5017096996, lr = 0.001
+[Epoch:  700] cost = 0.4477978349, lr = 0.001
+[Epoch:  800] cost = 0.4892809689, lr = 0.001
+[Epoch:  900] cost = 0.4577617049, lr = 0.001
+[Epoch: 1000] cost = 0.4583914876, lr = 0.001
+[Epoch: 1100] cost = 0.5461410284, lr = 0.001
+[Epoch: 1200] cost = 0.5038836002, lr = 0.001
+[Epoch: 1300] cost = 0.46970433, lr = 0.001
+[Epoch: 1400] cost = 0.4963374734, lr = 0.001
+[Epoch: 1500] cost = 0.4761571288, lr = 0.001
+[Epoch: 1600] cost = 0.4405009747, lr = 0.001
+[Epoch: 1700] cost = 0.4220338464, lr = 0.001
+[Epoch: 1800] cost = 0.3721739054, lr = 0.001
+[Epoch: 1900] cost = 0.3458518982, lr = 0.001
+[Epoch: 2000] cost = 0.400054276, lr = 0.001
+Model saved...
+Model Loaded!
+Accuracy: 0.8315789699554443
+[[ 21  41]
+ [  7 216]]
+###############Ses01 ended###############
+
+
+Data Loading...
+Ses02 dataset on training...
+
+Ses02Learning started. It takes some time...
+
+[Epoch:  100] cost = 0.6807855368, lr = 0.001
+[Epoch:  200] cost = 0.551780045, lr = 0.001
+[Epoch:  300] cost = 0.5277035236, lr = 0.001
+[Epoch:  400] cost = 0.4904843569, lr = 0.001
+[Epoch:  500] cost = 0.5119906664, lr = 0.001
+[Epoch:  600] cost = 0.5237538218, lr = 0.001
+[Epoch:  700] cost = 0.5020392537, lr = 0.001
+[Epoch:  800] cost = 0.486502409, lr = 0.001
+[Epoch:  900] cost = 0.4897074997, lr = 0.001
+[Epoch: 1000] cost = 0.4496981502, lr = 0.001
+[Epoch: 1100] cost = 0.4664630294, lr = 0.001
+[Epoch: 1200] cost = 0.4374294281, lr = 0.001
+[Epoch: 1300] cost = 0.4367108941, lr = 0.001
+[Epoch: 1400] cost = 0.4294909835, lr = 0.001
+[Epoch: 1500] cost = 0.4160735607, lr = 0.001
+[Epoch: 1600] cost = 0.4026557803, lr = 0.001
+[Epoch: 1700] cost = 0.4262817502, lr = 0.001
+[Epoch: 1800] cost = 0.4388685226, lr = 0.001
+[Epoch: 1900] cost = 0.4011035264, lr = 0.001
+[Epoch: 2000] cost = 0.4021305144, lr = 0.001
+Model saved...
+Model Loaded!
+Accuracy: 0.9205020666122437
+[[  8  14]
+ [  5 212]]
+###############Ses02 ended###############
+
+
+Data Loading...
+Ses03 dataset on training...
+
+Ses03Learning started. It takes some time...
+
+[Epoch:  100] cost = 0.6268607378, lr = 0.001
+[Epoch:  200] cost = 0.5551166534, lr = 0.001
+[Epoch:  300] cost = 0.5032122135, lr = 0.001
+[Epoch:  400] cost = 0.4012659788, lr = 0.001
+[Epoch:  500] cost = 0.433616221, lr = 0.001
+[Epoch:  600] cost = 0.4189359844, lr = 0.001
+[Epoch:  700] cost = 0.4434078336, lr = 0.001
+[Epoch:  800] cost = 0.4458375573, lr = 0.001
+[Epoch:  900] cost = 0.4392055273, lr = 0.001
+[Epoch: 1000] cost = 0.4524006546, lr = 0.001
+[Epoch: 1100] cost = 0.3982208669, lr = 0.001
+[Epoch: 1200] cost = 0.4248368144, lr = 0.001
+[Epoch: 1300] cost = 0.3929091096, lr = 0.001
+[Epoch: 1400] cost = 0.4502942562, lr = 0.001
+[Epoch: 1500] cost = 0.4083220661, lr = 0.001
+[Epoch: 1600] cost = 0.4070679247, lr = 0.001
+[Epoch: 1700] cost = 0.3311212063, lr = 0.001
+[Epoch: 1800] cost = 0.3306170106, lr = 0.001
+[Epoch: 1900] cost = 0.3246367574, lr = 0.001
+[Epoch: 2000] cost = 0.3613899946, lr = 0.001
+Model saved...
+Model Loaded!
+Accuracy: 0.7604166865348816
+[[ 32  58]
+ [ 11 187]]
+###############Ses03 ended###############
+
+
+Data Loading...
+Ses04 dataset on training...
+
+Ses04Learning started. It takes some time...
+
+[Epoch:  100] cost = 0.6612281799, lr = 0.001
+[Epoch:  200] cost = 0.4888278842, lr = 0.001
+[Epoch:  300] cost = 0.4997935891, lr = 0.001
+[Epoch:  400] cost = 0.4692154825, lr = 0.001
+[Epoch:  500] cost = 0.4436404705, lr = 0.001
+[Epoch:  600] cost = 0.4871510267, lr = 0.001
+[Epoch:  700] cost = 0.4449419677, lr = 0.001
+[Epoch:  800] cost = 0.4798739552, lr = 0.001
+[Epoch:  900] cost = 0.4015116692, lr = 0.001
+[Epoch: 1000] cost = 0.3974141479, lr = 0.001
+[Epoch: 1100] cost = 0.456050396, lr = 0.001
+[Epoch: 1200] cost = 0.4323180318, lr = 0.001
+[Epoch: 1300] cost = 0.4409803748, lr = 0.001
+[Epoch: 1400] cost = 0.3940082192, lr = 0.001
+[Epoch: 1500] cost = 0.408090353, lr = 0.001
+[Epoch: 1600] cost = 0.3728179336, lr = 0.001
+[Epoch: 1700] cost = 0.363301456, lr = 0.001
+[Epoch: 1800] cost = 0.3823950291, lr = 0.001
+[Epoch: 1900] cost = 0.3008991182, lr = 0.001
+[Epoch: 2000] cost = 0.3120825589, lr = 0.001
+Model saved...
+Model Loaded!
+Accuracy: 0.7325581312179565
+[[ 24  60]
+ [  9 165]]
+###############Ses04 ended###############
+
+
+Data Loading...
+Ses05 dataset on training...
+
+Ses05Learning started. It takes some time...
+
+[Epoch:  100] cost = 0.8928802609, lr = 0.001
+[Epoch:  200] cost = 0.6293089986, lr = 0.001
+[Epoch:  300] cost = 0.5590257049, lr = 0.001
+[Epoch:  400] cost = 0.576892972, lr = 0.001
+[Epoch:  500] cost = 0.6123626232, lr = 0.001
+[Epoch:  600] cost = 0.5132603645, lr = 0.001
+[Epoch:  700] cost = 0.5412769318, lr = 0.001
+[Epoch:  800] cost = 0.4897281826, lr = 0.001
+[Epoch:  900] cost = 0.5305525064, lr = 0.001
+[Epoch: 1000] cost = 0.5259928703, lr = 0.001
+[Epoch: 1100] cost = 0.5647867918, lr = 0.001
+[Epoch: 1200] cost = 0.4245595932, lr = 0.001
+[Epoch: 1300] cost = 0.514980197, lr = 0.001
+[Epoch: 1400] cost = 0.5439636707, lr = 0.001
+[Epoch: 1500] cost = 0.5532031059, lr = 0.001
+[Epoch: 1600] cost = 0.5081505775, lr = 0.001
+[Epoch: 1700] cost = 0.5101940632, lr = 0.001
+[Epoch: 1800] cost = 0.5040681362, lr = 0.001
+[Epoch: 1900] cost = 0.4770891666, lr = 0.001
+[Epoch: 2000] cost = 0.418988049, lr = 0.001
+Model saved...
+Model Loaded!
+Accuracy: 0.8427672982215881
+[[ 14  17]
+ [ 33 254]]
+###############Ses05 ended###############
+
+
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv1d-1              [-1, 16, 384]              64
+              ReLU-2              [-1, 16, 384]               0
+         MaxPool1d-3              [-1, 16, 192]               0
+            Conv1d-4              [-1, 24, 192]           1,176
+              ReLU-5              [-1, 24, 192]               0
+         MaxPool1d-6               [-1, 24, 96]               0
+           Dropout-7               [-1, 24, 96]               0
+            Conv1d-8               [-1, 32, 96]           2,336
+              ReLU-9               [-1, 32, 96]               0
+        MaxPool1d-10               [-1, 32, 48]               0
+           Conv1d-11               [-1, 40, 48]           3,880
+             ReLU-12               [-1, 40, 48]               0
+        MaxPool1d-13               [-1, 40, 24]               0
+          Dropout-14               [-1, 40, 24]               0
+           Conv1d-15               [-1, 48, 24]           5,808
+             ReLU-16               [-1, 48, 24]               0
+        MaxPool1d-17               [-1, 48, 12]               0
+          Dropout-18               [-1, 48, 12]               0
+           Linear-19                   [-1, 64]          36,928
+           Linear-20                   [-1, 64]          36,928
+             ReLU-21                   [-1, 64]               0
+          Dropout-22                   [-1, 64]               0
+           Linear-23                    [-1, 4]             260
+================================================================
+Total params: 87,380
+Trainable params: 87,380
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.35
+Params size (MB): 0.33
+Estimated Total Size (MB): 0.69
+----------------------------------------------------------------
+
+Average of 5-fold:  0.8175646305084229

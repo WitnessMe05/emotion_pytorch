@@ -35,7 +35,6 @@ for sessions in sess:
 
     realwavfiles = li.returnrealfiles(wavfiles)
     reallabfiles = li.returnrealfiles(labfiles)
-    #print(realwavfiles)
     for wavfile_index in range(len(realwavfiles)):
         wav_filename = str(realwavfiles[wavfile_index])
         print(realwavfiles[wavfile_index])
@@ -45,10 +44,10 @@ for sessions in sess:
             lab_fullpath = li.find_matching_label_file(wav_filename, reallabfiles, label_files_path)
             #print(lab_fullpath)
 
-            opensmile_conf = os.path.join(opensmile_path + "config/IS09_emotion.conf") # choose configuration file
-            result_path = ""#"./test/"#+sessions+"/"+wav_filename.split("/")[-2]
-            #createFolder(result_path)
-            featfile = result_path + 'IS09_emo.arff'
+            opensmile_conf = os.path.join(opensmile_path + "config/IS10_paraling.conf") # choose configuration file
+            result_path = "/home/gnlenfn/remote/pytorch_emotion/Feature/"
+            createFolder(result_path)
+            featfile = result_path + 'IS10_paraling.arff'
             command = "SMILExtract -I {input} -C {conf} -O {output} -instname {name}".format(input=wav_fullpath, conf=opensmile_conf, output=featfile, name=wav_fullpath.split("/")[-1].split(".")[0])
             output = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT)
             
@@ -60,10 +59,10 @@ for sessions in sess:
             wav_fullpath = os.path.join(wav_files_path, wav_filename)
             lab_fullpath = li.find_matching_label_file(wav_filename, reallabfiles, label_files_path)
 
-            opensmile_conf = os.path.join(opensmile_path + "config/IS09_emotion.conf") # choose configuration file
-            result_path = ""#"./test/"#+sessions+"/"+wav_filename.split("/")[-2]
-            #createFolder(result_path)
-            featfile = result_path + 'IS09_emo.arff'
+            opensmile_conf = os.path.join(opensmile_path + "config/IS10_paraling.conf") # choose configuration file
+            result_path = "/home/gnlenfn/remote/pytorch_emotion/Feature/"
+            createFolder(result_path)
+            featfile = result_path + 'IS10_paraling.arff'
             command = "SMILExtract -I {input} -C {conf} -O {output} -instname {name}".format(input=wav_fullpath, conf=opensmile_conf, output=featfile, name=wav_fullpath.split("/")[-1].split(".")[0])
             output = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT)
 
@@ -80,15 +79,16 @@ for sessions in sess:
     print("End of {}!".format(sessions))
 
 
-com = "python arff2csv.py"
+com = "cd /home/gnlenfn/remote/pytorch_emotion/Feature/ && python arff2csv.py"
 subprocess.run(com, shell=True)
 df_lab = df_lab.drop_duplicates().reset_index(drop=True)
 df_lab = df_lab.sort_values(by='TURN_NAME')
 cl = df_lab["EMOTION"].reset_index(drop=True)
+cl.to_csv(result_path + "emotion_classes.csv", header=False)
 
 # Set emotion class column
-tt=pd.read_csv("IS09_emo.csv").sort_values(by="name")
-tt = tt.drop(['class'], axis=1).reset_index(drop=True)
+tt=pd.read_csv(featfile.split(".")[0] + ".csv"
+            ).sort_values(by="name").drop(['class']).reset_index(drop=True)
 res = pd.concat([tt,cl], axis=1).reset_index(drop=True)
 
 # Set sesseion and type columns
@@ -102,4 +102,4 @@ res["Type"] = rec
 print(res)
 
 # Save feature file
-res.to_pickle(result_path+"IS09_emotion_feature.pkl", compression='gzip')
+res.to_pickle(featfile.split(".")[0] + ".pkl", compression='gzip')

@@ -42,4 +42,6 @@ Thumbs.db
 #*.png
 Feature/__pycache__/load_iemocap.cpython-36.pyc
 GAN
-.gitignore
+*.arff
+IS10_paraling.csv
+IS09_emo.csv
