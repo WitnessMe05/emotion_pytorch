@@ -1,0 +1,320 @@
+Data Loading...
+Ses01 dataset on training...
+
+Ses01Learning started. It takes some time...
+
+[Epoch:  100] cost = 0.5158497095, lr = 0.001
+[Epoch:  200] cost = 0.5149586797, lr = 0.001
+[Epoch:  300] cost = 0.3385307789, lr = 0.001
+[Epoch:  400] cost = 0.2845035791, lr = 0.001
+[Epoch:  500] cost = 0.3121652603, lr = 0.001
+[Epoch:  600] cost = 0.2482403219, lr = 0.001
+[Epoch:  700] cost = 0.3270770609, lr = 0.001
+[Epoch:  800] cost = 0.3037565351, lr = 0.001
+[Epoch:  900] cost = 0.2685633898, lr = 0.001
+[Epoch: 1000] cost = 0.2338525653, lr = 0.001
+[Epoch: 1100] cost = 0.2935394049, lr = 0.001
+[Epoch: 1200] cost = 0.2397486567, lr = 0.001
+[Epoch: 1300] cost = 0.2247251272, lr = 0.001
+[Epoch: 1400] cost = 0.2450462282, lr = 0.001
+[Epoch: 1500] cost = 0.2539203167, lr = 0.001
+[Epoch: 1600] cost = 0.2483176291, lr = 0.001
+[Epoch: 1700] cost = 0.2388756275, lr = 0.001
+[Epoch: 1800] cost = 0.237539649, lr = 0.001
+[Epoch: 1900] cost = 0.2941357791, lr = 0.001
+[Epoch: 2000] cost = 0.2396844029, lr = 0.001
+[Epoch: 2100] cost = 0.2562087774, lr = 0.001
+[Epoch: 2200] cost = 0.2261758149, lr = 0.001
+[Epoch: 2300] cost = 0.2330539823, lr = 0.001
+[Epoch: 2400] cost = 0.2042733133, lr = 0.001
+[Epoch: 2500] cost = 0.2175779045, lr = 0.001
+[Epoch: 2600] cost = 0.2305127382, lr = 0.001
+[Epoch: 2700] cost = 0.2069164664, lr = 0.001
+[Epoch: 2800] cost = 0.2471752465, lr = 0.001
+[Epoch: 2900] cost = 0.2205280215, lr = 0.001
+[Epoch: 3000] cost = 0.1941305399, lr = 0.001
+[Epoch: 3100] cost = 0.1809591204, lr = 0.001
+[Epoch: 3200] cost = 0.2320537269, lr = 0.001
+[Epoch: 3300] cost = 0.1718375236, lr = 0.001
+[Epoch: 3400] cost = 0.1739625633, lr = 0.001
+[Epoch: 3500] cost = 0.1701202542, lr = 0.001
+[Epoch: 3600] cost = 0.211201638, lr = 0.001
+[Epoch: 3700] cost = 0.1768546104, lr = 0.001
+[Epoch: 3800] cost = 0.123711504, lr = 0.001
+[Epoch: 3900] cost = 0.1587127745, lr = 0.001
+[Epoch: 4000] cost = 0.1965570897, lr = 0.001
+[Epoch: 4100] cost = 0.1743112504, lr = 0.001
+[Epoch: 4200] cost = 0.1406340599, lr = 0.001
+[Epoch: 4300] cost = 0.1615235209, lr = 0.001
+[Epoch: 4400] cost = 0.1264823675, lr = 0.001
+[Epoch: 4500] cost = 0.1476606429, lr = 0.001
+[Epoch: 4600] cost = 0.1220970154, lr = 0.001
+[Epoch: 4700] cost = 0.2169697434, lr = 0.001
+[Epoch: 4800] cost = 0.2424722016, lr = 0.001
+[Epoch: 4900] cost = 0.148396045, lr = 0.001
+[Epoch: 5000] cost = 0.1814707518, lr = 0.001
+Directory is already exists
+Model saved...
+Model Loaded!
+Accuracy: 0.8701754212379456
+[[ 52  10]
+ [ 27 196]]
+###############Ses01 ended###############
+
+
+Data Loading...
+Ses02 dataset on training...
+
+Ses02Learning started. It takes some time...
+
+[Epoch:  100] cost = 0.5782241821, lr = 0.001
+[Epoch:  200] cost = 0.4247172773, lr = 0.001
+[Epoch:  300] cost = 0.3413500786, lr = 0.001
+[Epoch:  400] cost = 0.3470600247, lr = 0.001
+[Epoch:  500] cost = 0.3088434339, lr = 0.001
+[Epoch:  600] cost = 0.3388748765, lr = 0.001
+[Epoch:  700] cost = 0.3170384765, lr = 0.001
+[Epoch:  800] cost = 0.2582221627, lr = 0.001
+[Epoch:  900] cost = 0.3211532831, lr = 0.001
+[Epoch: 1000] cost = 0.2715566158, lr = 0.001
+[Epoch: 1100] cost = 0.2709407806, lr = 0.001
+[Epoch: 1200] cost = 0.3112564087, lr = 0.001
+[Epoch: 1300] cost = 0.3073020279, lr = 0.001
+[Epoch: 1400] cost = 0.2699463964, lr = 0.001
+[Epoch: 1500] cost = 0.2692741752, lr = 0.001
+[Epoch: 1600] cost = 0.2588791847, lr = 0.001
+[Epoch: 1700] cost = 0.2638431489, lr = 0.001
+[Epoch: 1800] cost = 0.2356276214, lr = 0.001
+[Epoch: 1900] cost = 0.2290387452, lr = 0.001
+[Epoch: 2000] cost = 0.2802213728, lr = 0.001
+[Epoch: 2100] cost = 0.2414759248, lr = 0.001
+[Epoch: 2200] cost = 0.240784198, lr = 0.001
+[Epoch: 2300] cost = 0.1977573931, lr = 0.001
+[Epoch: 2400] cost = 0.2238060832, lr = 0.001
+[Epoch: 2500] cost = 0.2157379985, lr = 0.001
+[Epoch: 2600] cost = 0.1935745627, lr = 0.001
+[Epoch: 2700] cost = 0.1987760514, lr = 0.001
+[Epoch: 2800] cost = 0.2270248234, lr = 0.001
+[Epoch: 2900] cost = 0.1675845981, lr = 0.001
+[Epoch: 3000] cost = 0.2078076899, lr = 0.001
+[Epoch: 3100] cost = 0.2031204402, lr = 0.001
+[Epoch: 3200] cost = 0.1769421697, lr = 0.001
+[Epoch: 3300] cost = 0.1693120599, lr = 0.001
+[Epoch: 3400] cost = 0.1727835834, lr = 0.001
+[Epoch: 3500] cost = 0.2036680579, lr = 0.001
+[Epoch: 3600] cost = 0.1390687376, lr = 0.001
+[Epoch: 3700] cost = 0.1966255307, lr = 0.001
+[Epoch: 3800] cost = 0.1879339814, lr = 0.001
+[Epoch: 3900] cost = 0.197635442, lr = 0.001
+[Epoch: 4000] cost = 0.1542209983, lr = 0.001
+[Epoch: 4100] cost = 0.1473694891, lr = 0.001
+[Epoch: 4200] cost = 0.1892374903, lr = 0.001
+[Epoch: 4300] cost = 0.136388436, lr = 0.001
+[Epoch: 4400] cost = 0.1241374314, lr = 0.001
+[Epoch: 4500] cost = 0.1447634995, lr = 0.001
+[Epoch: 4600] cost = 0.1182281673, lr = 0.001
+[Epoch: 4700] cost = 0.1186684221, lr = 0.001
+[Epoch: 4800] cost = 0.126284197, lr = 0.001
+[Epoch: 4900] cost = 0.1004550755, lr = 0.001
+[Epoch: 5000] cost = 0.1306115687, lr = 0.001
+Directory is already exists
+Model saved...
+Model Loaded!
+Accuracy: 0.9079498052597046
+[[ 17   5]
+ [ 17 200]]
+###############Ses02 ended###############
+
+
+Data Loading...
+Ses03 dataset on training...
+
+Ses03Learning started. It takes some time...
+
+[Epoch:  100] cost = 0.5293164849, lr = 0.001
+[Epoch:  200] cost = 0.4376904964, lr = 0.001
+[Epoch:  300] cost = 0.345505774, lr = 0.001
+[Epoch:  400] cost = 0.3029944003, lr = 0.001
+[Epoch:  500] cost = 0.2776933908, lr = 0.001
+[Epoch:  600] cost = 0.2833650708, lr = 0.001
+[Epoch:  700] cost = 0.301499784, lr = 0.001
+[Epoch:  800] cost = 0.2904214859, lr = 0.001
+[Epoch:  900] cost = 0.2772811353, lr = 0.001
+[Epoch: 1000] cost = 0.2074568868, lr = 0.001
+[Epoch: 1100] cost = 0.2836466432, lr = 0.001
+[Epoch: 1200] cost = 0.3599592149, lr = 0.001
+[Epoch: 1300] cost = 0.2205014527, lr = 0.001
+[Epoch: 1400] cost = 0.2878370881, lr = 0.001
+[Epoch: 1500] cost = 0.2551976442, lr = 0.001
+[Epoch: 1600] cost = 0.2842387855, lr = 0.001
+[Epoch: 1700] cost = 0.2160844952, lr = 0.001
+[Epoch: 1800] cost = 0.1953507364, lr = 0.001
+[Epoch: 1900] cost = 0.3013669848, lr = 0.001
+[Epoch: 2000] cost = 0.1922671795, lr = 0.001
+[Epoch: 2100] cost = 0.2746399045, lr = 0.001
+[Epoch: 2200] cost = 0.1675354838, lr = 0.001
+[Epoch: 2300] cost = 0.1808271408, lr = 0.001
+[Epoch: 2400] cost = 0.2096422017, lr = 0.001
+[Epoch: 2500] cost = 0.1947563291, lr = 0.001
+[Epoch: 2600] cost = 0.210862875, lr = 0.001
+[Epoch: 2700] cost = 0.1522346586, lr = 0.001
+[Epoch: 2800] cost = 0.1964750439, lr = 0.001
+[Epoch: 2900] cost = 0.1598895043, lr = 0.001
+[Epoch: 3000] cost = 0.1914545, lr = 0.001
+[Epoch: 3100] cost = 0.1915272176, lr = 0.001
+[Epoch: 3200] cost = 0.1775947958, lr = 0.001
+[Epoch: 3300] cost = 0.1811974198, lr = 0.001
+[Epoch: 3400] cost = 0.215126127, lr = 0.001
+[Epoch: 3500] cost = 0.2082673311, lr = 0.001
+[Epoch: 3600] cost = 0.1457098424, lr = 0.001
+[Epoch: 3700] cost = 0.1368483603, lr = 0.001
+[Epoch: 3800] cost = 0.1186700016, lr = 0.001
+[Epoch: 3900] cost = 0.1637522876, lr = 0.001
+[Epoch: 4000] cost = 0.1386644244, lr = 0.001
+[Epoch: 4100] cost = 0.1393732727, lr = 0.001
+[Epoch: 4200] cost = 0.1122857332, lr = 0.001
+[Epoch: 4300] cost = 0.1521700025, lr = 0.001
+[Epoch: 4400] cost = 0.1876396537, lr = 0.001
+[Epoch: 4500] cost = 0.1144103855, lr = 0.001
+[Epoch: 4600] cost = 0.1374686807, lr = 0.001
+[Epoch: 4700] cost = 0.1093280017, lr = 0.001
+[Epoch: 4800] cost = 0.1735551059, lr = 0.001
+[Epoch: 4900] cost = 0.1608626544, lr = 0.001
+[Epoch: 5000] cost = 0.1253028065, lr = 0.001
+Directory is already exists
+Model saved...
+Model Loaded!
+Accuracy: 0.8263888955116272
+[[ 47  43]
+ [  7 191]]
+###############Ses03 ended###############
+
+
+Data Loading...
+Ses04 dataset on training...
+
+Ses04Learning started. It takes some time...
+
+[Epoch:  100] cost = 0.5791047812, lr = 0.001
+[Epoch:  200] cost = 0.3931060135, lr = 0.001
+[Epoch:  300] cost = 0.3221993148, lr = 0.001
+[Epoch:  400] cost = 0.3056325912, lr = 0.001
+[Epoch:  500] cost = 0.2959334254, lr = 0.001
+[Epoch:  600] cost = 0.2559354305, lr = 0.001
+[Epoch:  700] cost = 0.2833479643, lr = 0.001
+[Epoch:  800] cost = 0.3038887382, lr = 0.001
+[Epoch:  900] cost = 0.2465492189, lr = 0.001
+[Epoch: 1000] cost = 0.2278719097, lr = 0.001
+[Epoch: 1100] cost = 0.2248966098, lr = 0.001
+[Epoch: 1200] cost = 0.2472375333, lr = 0.001
+[Epoch: 1300] cost = 0.2243462652, lr = 0.001
+[Epoch: 1400] cost = 0.239516601, lr = 0.001
+[Epoch: 1500] cost = 0.2768333852, lr = 0.001
+[Epoch: 1600] cost = 0.2068395764, lr = 0.001
+[Epoch: 1700] cost = 0.1732558608, lr = 0.001
+[Epoch: 1800] cost = 0.2326922268, lr = 0.001
+[Epoch: 1900] cost = 0.2135239989, lr = 0.001
+[Epoch: 2000] cost = 0.239508301, lr = 0.001
+[Epoch: 2100] cost = 0.2303814739, lr = 0.001
+[Epoch: 2200] cost = 0.1828068048, lr = 0.001
+[Epoch: 2300] cost = 0.2856084406, lr = 0.001
+[Epoch: 2400] cost = 0.2191306651, lr = 0.001
+[Epoch: 2500] cost = 0.2137191594, lr = 0.001
+[Epoch: 2600] cost = 0.1487587243, lr = 0.001
+[Epoch: 2700] cost = 0.2022807002, lr = 0.001
+[Epoch: 2800] cost = 0.190094322, lr = 0.001
+[Epoch: 2900] cost = 0.2048668563, lr = 0.001
+[Epoch: 3000] cost = 0.1822071522, lr = 0.001
+[Epoch: 3100] cost = 0.1786786914, lr = 0.001
+[Epoch: 3200] cost = 0.1775108576, lr = 0.001
+[Epoch: 3300] cost = 0.1433903277, lr = 0.001
+[Epoch: 3400] cost = 0.1547470391, lr = 0.001
+[Epoch: 3500] cost = 0.1916834116, lr = 0.001
+[Epoch: 3600] cost = 0.1309739798, lr = 0.001
+[Epoch: 3700] cost = 0.1376479864, lr = 0.001
+[Epoch: 3800] cost = 0.1269286275, lr = 0.001
+[Epoch: 3900] cost = 0.1471348703, lr = 0.001
+[Epoch: 4000] cost = 0.1478073001, lr = 0.001
+[Epoch: 4100] cost = 0.1354615688, lr = 0.001
+[Epoch: 4200] cost = 0.1211365312, lr = 0.001
+[Epoch: 4300] cost = 0.1562971771, lr = 0.001
+[Epoch: 4400] cost = 0.09836477041, lr = 0.001
+[Epoch: 4500] cost = 0.1303995848, lr = 0.001
+[Epoch: 4600] cost = 0.09706528485, lr = 0.001
+[Epoch: 4700] cost = 0.100589186, lr = 0.001
+[Epoch: 4800] cost = 0.1133045107, lr = 0.001
+[Epoch: 4900] cost = 0.08016076684, lr = 0.001
+[Epoch: 5000] cost = 0.1168503314, lr = 0.001
+Directory is already exists
+Model saved...
+Model Loaded!
+Accuracy: 0.817829430103302
+[[ 55  29]
+ [ 18 156]]
+###############Ses04 ended###############
+
+
+Data Loading...
+Ses05 dataset on training...
+
+Ses05Learning started. It takes some time...
+
+[Epoch:  100] cost = 0.6264168024, lr = 0.001
+[Epoch:  200] cost = 0.5179638863, lr = 0.001
+[Epoch:  300] cost = 0.447234571, lr = 0.001
+[Epoch:  400] cost = 0.4627914429, lr = 0.001
+[Epoch:  500] cost = 0.3321806192, lr = 0.001
+[Epoch:  600] cost = 0.3717516065, lr = 0.001
+[Epoch:  700] cost = 0.39282915, lr = 0.001
+[Epoch:  800] cost = 0.3279369473, lr = 0.001
+[Epoch:  900] cost = 0.266273737, lr = 0.001
+[Epoch: 1000] cost = 0.3257111311, lr = 0.001
+[Epoch: 1100] cost = 0.2803705037, lr = 0.001
+[Epoch: 1200] cost = 0.3983474672, lr = 0.001
+[Epoch: 1300] cost = 0.3030510545, lr = 0.001
+[Epoch: 1400] cost = 0.2873372436, lr = 0.001
+[Epoch: 1500] cost = 0.3343704939, lr = 0.001
+[Epoch: 1600] cost = 0.322676301, lr = 0.001
+[Epoch: 1700] cost = 0.2676043808, lr = 0.001
+[Epoch: 1800] cost = 0.3192619681, lr = 0.001
+[Epoch: 1900] cost = 0.2833316326, lr = 0.001
+[Epoch: 2000] cost = 0.3078564405, lr = 0.001
+[Epoch: 2100] cost = 0.2702073455, lr = 0.001
+[Epoch: 2200] cost = 0.2307261527, lr = 0.001
+[Epoch: 2300] cost = 0.2609124184, lr = 0.001
+[Epoch: 2400] cost = 0.1868754029, lr = 0.001
+[Epoch: 2500] cost = 0.2406244576, lr = 0.001
+[Epoch: 2600] cost = 0.2662041485, lr = 0.001
+[Epoch: 2700] cost = 0.2053826153, lr = 0.001
+[Epoch: 2800] cost = 0.2892215848, lr = 0.001
+[Epoch: 2900] cost = 0.2096420527, lr = 0.001
+[Epoch: 3000] cost = 0.2717873454, lr = 0.001
+[Epoch: 3100] cost = 0.2126905024, lr = 0.001
+[Epoch: 3200] cost = 0.2404405177, lr = 0.001
+[Epoch: 3300] cost = 0.2606907189, lr = 0.001
+[Epoch: 3400] cost = 0.2471562028, lr = 0.001
+[Epoch: 3500] cost = 0.250962019, lr = 0.001
+[Epoch: 3600] cost = 0.2015667558, lr = 0.001
+[Epoch: 3700] cost = 0.1716316938, lr = 0.001
+[Epoch: 3800] cost = 0.2045949101, lr = 0.001
+[Epoch: 3900] cost = 0.2019765973, lr = 0.001
+[Epoch: 4000] cost = 0.2333948165, lr = 0.001
+[Epoch: 4100] cost = 0.219396323, lr = 0.001
+[Epoch: 4200] cost = 0.2060060799, lr = 0.001
+[Epoch: 4300] cost = 0.202375114, lr = 0.001
+[Epoch: 4400] cost = 0.2395755947, lr = 0.001
+[Epoch: 4500] cost = 0.1543719471, lr = 0.001
+[Epoch: 4600] cost = 0.1264221966, lr = 0.001
+[Epoch: 4700] cost = 0.2038846016, lr = 0.001
+[Epoch: 4800] cost = 0.1378648579, lr = 0.001
+[Epoch: 4900] cost = 0.2168841362, lr = 0.001
+[Epoch: 5000] cost = 0.1308439523, lr = 0.001
+Directory is already exists
+Model saved...
+Model Loaded!
+Accuracy: 0.9119496941566467
+[[  8  23]
+ [  5 282]]
+###############Ses05 ended###############
+
+

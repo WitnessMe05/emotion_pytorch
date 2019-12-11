@@ -43,7 +43,7 @@ for sp in speak:
         def __init__(self, is_train_set=False, transforms=None):
             le = preprocessing.LabelEncoder()
             #filename = "./test/IS09_emo.csv"
-            with gzip.open("/home/gnlenfn/remote/pytorch_emotion/Feature/IS09_emotion_feature.pkl") as f:
+            with gzip.open("/home/gnlenfn/remote/pytorch_emotion/Feature/IS10_paraling/IS10_paraling.pkl") as f:
                 feat = pickle.load(f)
             if is_train_set == False:
                 data = feat[feat['Session'] == sp]
@@ -115,7 +115,7 @@ for sp in speak:
                 torch.nn.Dropout(p=1 - self.keep_prob)
             )
 
-            self.linear1 = torch.nn.Linear(576, 64, bias=True)
+            self.linear1 = torch.nn.Linear(2352, 64, bias=True)
             torch.nn.init.xavier_uniform_(self.linear1.weight)
 
             self.dense = torch.nn.Sequential(
@@ -193,11 +193,12 @@ for sp in speak:
         
     # # SAVE MODEL
     createFolder(model_path)
-    torch.save(model.state_dict(), model_path + str(epochs) + '.pth')
+    model_name = model_path + sp + "_" + str(epochs) + '_IS10'
+    torch.save(model.state_dict(), model_name + ".pth")
     print("Model saved...")
 
     trained_model = CNN().to(device)
-    trained_model.load_state_dict(torch.load(model_path + str(epochs) + ".pth"))
+    trained_model.load_state_dict(torch.load(model_name + ".pth"))
     print("Model Loaded!")
 
     # TEST WITH TEST DATA
@@ -237,7 +238,7 @@ for sp in speak:
     cbar = conf1.figure.colorbar(conf1.collections[0])
     cbar.set_ticks([0,1])
     cbar.set_ticklabels(["0%", "100%"])
-    plt.savefig(model_path + "ConfMat" + sp + "_" + str(epochs) + ".png")
+    plt.savefig(model_name + ".png")
     plt.show()
 
     print("###############"+sp+" ended###############\n\n")
