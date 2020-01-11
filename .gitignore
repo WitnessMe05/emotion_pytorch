@@ -1,6 +1,6 @@
 .vscode
 data
-
+__pycache__
 # Compiled source #
 ###################
 *.com
@@ -43,5 +43,12 @@ Thumbs.db
 Feature/__pycache__/load_iemocap.cpython-36.pyc
 GAN
 *.arff
+*.csv
 IS10_paraling.csv
 IS09_emo.csv
+*.pkl
+model
+Model
+log
+.ipynb_checkpoints
+*.npz
