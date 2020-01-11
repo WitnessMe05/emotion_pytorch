@@ -47,8 +47,11 @@ GAN
 IS10_paraling.csv
 IS09_emo.csv
 *.pkl
+<<<<<<< HEAD
 model
 Model
 log
 .ipynb_checkpoints
 *.npz
+=======
+>>>>>>> b18ed9172e5d00e8bb616a28f468a30dfe3976d8
